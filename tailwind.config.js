@@ -11,6 +11,7 @@ module.exports = {
         manrope : ['Manrope' , 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
+        signika: ['Signika', 'sans-serif'],
       },
     },
   },

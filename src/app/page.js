@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import NavBar from './components/NavBar'
 import Categories from './components/Categories'
+import Hero from './components/Hero'
 
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
         </div>
 
       <Categories />
+
+      <Hero />
       
     </div>
     </>
