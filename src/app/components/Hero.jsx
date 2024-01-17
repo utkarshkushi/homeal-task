@@ -2,13 +2,8 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <>
-
-        <div className='bg-vg absolute' >
-            <img  src="/gp.png" alt="" />
-        </div> 
     
-    <div className='bg-[#f9f0e5] px-10 pt-52 flex justify-around gap-[60px] hero-bg z-40'>
+    <div className='bg-[#f9f0e5] px-10 pt-10 flex justify-around gap-[60px] hero-bg'>
         <div>
             <img className='w-[700px] h-[644px]' src="/hero-img.png" alt="hero-img" />
         </div>
@@ -24,7 +19,7 @@ const Hero = () => {
             </div>
         </div>
     </div>
-    </>
+
   )
 }
 

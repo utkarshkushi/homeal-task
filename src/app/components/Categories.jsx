@@ -1,15 +1,14 @@
 import { ChevronDown } from 'lucide-react'
-import React from 'react'
+import DropDownCategories from './ui/DropDownCategories'
 
 const Categories = () => {
+    
   return (
-    <div className='px-10 py-5 flex justify-between items-center'>
+    <div className='px-10 py-5 flex justify-between items-center z-100'>
 
         <div className='flex gap-5'>
-        <div className='flex justify-between items-center px-5 rounded-lg w-56 py-4 gap-8 bg-amber-400 cursor-pointer'>
-            <h1 className='text-sm font-roboto font-semibold text-white'>All Categories</h1>
-            <ChevronDown  color='white'/>
-        </div>
+
+            <DropDownCategories />
 
         <div className='pages flex gap-2'>
             <div className='flex gap-1 items-center cursor-pointer'>

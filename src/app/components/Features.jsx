@@ -56,7 +56,7 @@ const Features = () => {
           else{
             return (
               <div key={ele.id} className='flex gap-2 justify-center items-center  px-10 '>
-          <div>
+          <div className='hover:scale-90 transition-all cursor-pointer'>
           <img className='w-[60px] h-[60px]' src={ele.link} alt="" />
           </div>
           <div>
