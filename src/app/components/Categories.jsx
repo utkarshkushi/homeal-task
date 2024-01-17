@@ -1,8 +1,11 @@
 import { ChevronDown } from 'lucide-react'
 import DropDownCategories from './ui/DropDownCategories'
+import DropDownHome from './ui/DropDownHome'
+
+
 
 const Categories = () => {
-    
+
   return (
     <div className='px-10 py-5 flex justify-between items-center z-100'>
 
@@ -12,8 +15,9 @@ const Categories = () => {
 
         <div className='pages flex gap-2'>
             <div className='flex gap-1 items-center cursor-pointer'>
-                <p className='text-[#347758] text-md font-normal font-roboto page-link hover:underline'>Home</p>
-                <ChevronDown  color='#347758'/>
+                {/* <p className='text-[#347758] text-md font-normal font-roboto page-link hover:underline'>Home</p>
+                <ChevronDown  color='#347758'/> */}
+                <DropDownHome />
             </div>
             <div className='flex gap-1 items-center cursor-pointer'>
                 <p className='hover:text-[#347758] text-md font-normal font-roboto page-link hover:underline'>Shop</p>
