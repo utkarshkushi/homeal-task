@@ -27,3 +27,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+
+/* .page-link::after{
+  content: "";
+  position: absolute;
+  background-color: #347758;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+} */
