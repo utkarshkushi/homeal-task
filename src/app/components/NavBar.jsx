@@ -33,16 +33,16 @@ const NavBar = () => {
                 <p className='hover:text-[#347758]'><span className='font-semibold cursor-pointer'>Sign-In</span> or <span className='font-semibold cursor-pointer'>Register</span></p>
             </div>
             <div className='flex justify-center items-center w-[60px] h-[60px] rounded-[15px] rounded-br-[30px] hover:rounded-br-[15px] transition-all bg-[#eaf0ef] border'>
-                <img className='w-5 h-5' src="/basket.png" alt="" />
-                {/* <div className='rounded-[50%] h-7 w-7 flex justify-center items-center border-2 border-white bg-amber-400 absolute top-7 right-14 '>
+                <img className='w-5 h-5 relative left-3' src="/basket.png" alt="" />
+                <div className='rounded-[50%] h-6 w-6 flex justify-center items-center border-2 border-white bg-amber-400 relative bottom-5 left-3'>
                   
-                  <p className='text-[#347758] text-xs'>2</p>
+                  <p className='text-[#347758] text-xs'>0</p>
                   
-                </div> */}
+                </div>
             </div>
             <div className='flex justify-center items-center w-[60px] h-[60px] rounded-[15px] rounded-br-[30px] hover:rounded-br-[15px] transition-all bg-[#fcf3d8] border'>
-                <img className='w-5 h-5' src="/basket.png" alt="" />
-                <div className='rounded-[50%] h-7 w-7 flex justify-center items-center border-2 border-white bg-amber-400 absolute top-7 right-8 '>
+                <img className='w-5 h-5 relative left-3' src="/basket.png" alt="" />
+                <div className='rounded-[50%] h-6 w-6 flex justify-center items-center border-2 border-white bg-amber-400 relative bottom-5 left-3'>
                   
                   <p className='text-[#347758] text-xs'>1</p>
                   
