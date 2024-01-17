@@ -2,6 +2,7 @@ import Image from 'next/image'
 import NavBar from './components/NavBar'
 import Categories from './components/Categories'
 import Hero from './components/Hero'
+import Features from './components/Features'
 
 
 export default function Home() {
@@ -17,6 +18,9 @@ export default function Home() {
       <Categories />
 
       <Hero />
+
+
+      <Features />
       
     </div>
     </>
